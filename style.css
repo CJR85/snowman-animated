@@ -57,8 +57,8 @@ body {
 }
 
 .body {
-  width: 250px;
-  height: 250px;
+  width: 0px;
+  height: 0px;
   background: #fff;
   border-radius: 50%;
   margin-top: -40px;
@@ -66,6 +66,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  animation: body 1s linear forwards;
+  animation-delay: 0.5s;
 }
 
 .body span {
@@ -74,4 +76,11 @@ body {
   background: #333;
   border-radius: 50%;
   margin: 5px;
+}
+
+@keyframes body {
+  100% {
+    width: 250px;
+    height: 250px;
+  }
 }
