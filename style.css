@@ -39,3 +39,11 @@ body {
   text-align: center;
   margin-top: 40px;
 }
+
+.nose {
+  width: 15px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  margin: 0px auto;
+}
