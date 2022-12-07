@@ -10,3 +10,18 @@
 body {
   background: #222;
 }
+
+.snowman {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.head {
+  width: 180px;
+  height: 180px;
+  background: #fff;
+  border-radius: 50%;
+}
