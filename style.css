@@ -44,10 +44,12 @@ body {
 
 .nose {
   width: 15px;
-  height: 30px;
+  height: 0px;
   background: red;
   border-radius: 50%;
   margin: 0px auto;
+  animation: nose 0.5s linear forwards;
+  animation-delay: 2s;
 }
 
 .mouth {
@@ -89,5 +91,10 @@ body {
 @keyframes eyes {
   100% {
     height: 25px;
+  }
+}
+@keyframes nose {
+  100% {
+    height: 30px;
   }
 }
